@@ -1,6 +1,6 @@
 .stand {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -8,12 +8,14 @@
     display: flex;
     flex-direction: column;
     gap: 48px;
+
 }
 
 .buttons {
     display: flex;
     flex-direction: column;
     gap: 24px;
+   min-width: 200px;
 }
 
 .checkboxes {
